@@ -143,7 +143,7 @@ body {
 .table {
   display: flex;
   flex-direction: column;
-	background-color: #ddd;
+	background-color: rgb(245, 245, 245);
   margin-top: 34px;
 	overflow: auto;
 }
@@ -204,7 +204,7 @@ body {
 }
 
 .list__element {
-  font-size: 21px;
+  font-size: 18px;
   line-height: 30px;
 }
 
@@ -218,6 +218,16 @@ li::marker {
 
 .second__table, .third__table, .fourth__table {
 	overflow: auto;
+}
+
+.second__table {
+  background-color: #ddd;
+  color: white;
+}
+
+.third__table {
+  background-color: #2B3B4B;
+  color: white;
 }
 
 .second-table-title, .third-table-title, .fourth-table-title {
