@@ -460,6 +460,19 @@ li::marker {
   z-index: 100;
 }
 
+.tipobet_games,
+.tipobet_sport,
+.tipobet_homepage,
+.tipobet_login,
+.tipobet_mobile,
+.tipobet_payments {
+  width: 70%;
+  margin-top: 30px;
+  display: flex;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
 @media (max-width: 1200px) {
   .footer {
 		padding: 10px 20px;
@@ -621,6 +634,15 @@ li::marker {
     margin-left: 16px;
     margin-right: 16px;
     margin-bottom: 80px;
+  }
+
+  .tipobet_games,
+  .tipobet_homepage,
+  .tipobet_login,
+  .tipobet_sport,
+  .tipobet_mobile,
+  .tipobet_payments {
+    width: 100%;
   }
 }
 
