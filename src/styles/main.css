@@ -143,7 +143,8 @@ body {
 .table {
   display: flex;
   flex-direction: column;
-	background-color: rgb(245, 245, 245);
+  background-color: #2B3B4B;
+  color: white;
   margin-top: 34px;
 	overflow: auto;
 }
@@ -218,16 +219,6 @@ li::marker {
 
 .second__table, .third__table, .fourth__table {
 	overflow: auto;
-}
-
-.second__table {
-  background-color: #ddd;
-  color: white;
-}
-
-.third__table {
-  background-color: #2B3B4B;
-  color: white;
 }
 
 .second-table-title, .third-table-title, .fourth-table-title {
@@ -333,7 +324,7 @@ li::marker {
 }
 
 .third-table-title, .third__table-title-container {
-  width: 100px;
+  width: 130px;
 }
 
 .fourth-table-title {
@@ -351,12 +342,12 @@ li::marker {
 }
 
 .select {
-	background:#119F4C;
+	background:#2B3B4B;
   color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px #119F4C solid;
+  border: 2px #2B3B4B solid;
   padding: 6px 8px;
   cursor: pointer;
 }
@@ -394,7 +385,7 @@ li::marker {
 
 .dropdown-menu {
   list-style: none;
-  border: 1px #363a43 solid;
+  border: 1px #2B3B4B solid;
   box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
   color: #9fa5b5;
   top: 3em;
@@ -418,7 +409,7 @@ li::marker {
 .menu-open {
   display: block;
   opacity: 0.6;
-  background-color:  #119F4C;
+  background-color: #2B3B4B;
 	border: none;
 }
 
@@ -435,7 +426,7 @@ li::marker {
 
 .footer {
 	width: 100%;
-	background: #191a1f;
+	background: #2c394c;
 	padding: 40px calc((100% - 1170px) / 2);
 }
 
