@@ -200,6 +200,7 @@ body {
   margin-top: 30px;
   display: flex;
   flex-direction: column;
+  font-size: 18px;
   gap: 15px;
   list-style-type: disc;
 }
@@ -473,6 +474,22 @@ li::marker {
   left: 50%;
   transform: translateX(-50%);
 }
+
+.list__link {
+  text-decoration: none;
+  color: black;
+}
+
+.bonus__images {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.bonus__image {
+  width: 50%;
+}
+
 @media (max-width: 1200px) {
   .footer {
 		padding: 10px 20px;
@@ -642,6 +659,14 @@ li::marker {
   .tipobet_sport,
   .tipobet_mobile,
   .tipobet_payments {
+    width: 100%;
+  }
+
+  .bonus__images {
+    flex-direction: column;
+  }
+  
+  .bonus__image {
     width: 100%;
   }
 }
